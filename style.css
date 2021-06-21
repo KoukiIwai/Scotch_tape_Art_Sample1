@@ -1,0 +1,53 @@
+body {
+    background-image : url("images/bg_image_01.jpg");
+}
+
+#container {
+    width: 800px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+header {
+    text-align:center;
+    height:50px;
+    line-height:60px;
+    padding: 40px;
+    height: 70px;
+    background-image : url("images/bg_image_02.png");
+    font-size: 20px;
+}
+
+nav {
+    padding: 0px;
+    text-align:center;
+    height:60px;
+    line-height:60px;
+    background-color: black;
+    color: whitesmoke;
+    font-size: 30px
+}
+
+article {
+    padding: 0px;
+    min-height : 400px;
+    color: black;
+    font-size: 25px
+}
+
+article ul{
+    display: flex;
+    flex-direction: row;
+
+  }
+
+article ul li{
+    margin-right: 4rem;
+  }
+
+footer {
+    padding: 40px;
+    height: 40px;
+    background-color : black;
+    color: whitesmoke;
+}
